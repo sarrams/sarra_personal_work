@@ -17,7 +17,7 @@ clone the project or download the project
 install all depedencies
 > pip install -U -r requirements.txt
 
-Create the folder : payloads 
+Create the folder : mkdir payloads 
 
 Run on background payloads_question_one.py ( The server)
 > python payloads_question_one.py
