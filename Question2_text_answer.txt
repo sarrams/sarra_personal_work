@@ -1,0 +1,11 @@
+
+
+
+1. What are the possible ways of counting the number of new video sessions using the payloads described in the context ?
+
+
+We can count the number of new video sessions by checking the token of the payloads, for each new token we can assume that this data represent a new video session.
+Another way to count this number is by checking the duration of the actual payload  according to the duration of the previous sessions
+for example :
+if a payload X has multiple session duration during the reception : 1000, 1060, 1500 and then we receive a new payload with a duration of 30, this last payload is considered as a new video session.
+
