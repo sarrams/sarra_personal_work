@@ -7,8 +7,7 @@ These instructions will get you a copy of the project up and running on your loc
 # Prerequisites
 Python >= 3.6
 
-> Replace the post request on the main_test.py script by the localhost or the IP.
-> Replace the database configuration by yours in the server script.
+Replace the post request on the main_test.py script by the localhost or the IP and the database configuration by yours in the server script.
 
 
 # Installation
